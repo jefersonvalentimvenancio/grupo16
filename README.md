@@ -1,5 +1,7 @@
 ### Exercício 1: Primeiros Passos com Node.js
 
+[Link Desafio](https://github.com/luarakerlen/projeto-3)
+
 **Objetivo**: Verificar a instalação do Node.js e executar o primeiro script.
 
 1. Peça aos alunos que criem um arquivo `hello.js` com o seguinte conteúdo:
