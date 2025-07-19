@@ -1,0 +1,59 @@
+// Exercícios com loops
+
+// Loop for básico
+console.log("Contando de 1 a 5:");
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}
+
+// Loop for com break
+console.log("\nLoop com break:");
+for (let i = 1; i <= 10; i++) {
+  if (i === 6) {
+    console.log("Encontrei o 6, parando o loop!");
+    break;
+  }
+  console.log(i);
+}
+
+// Loop for com continue
+console.log("\nPulando números pares:");
+for (let i = 1; i <= 10; i++) {
+  if (i % 2 === 0) {
+    continue;
+  }
+  console.log(i);
+}
+
+// Iterando sobre arrays
+const fruits = ["Maçã", "Banana", "Laranja", "Manga", "Uva"];
+console.log("\nLista de frutas:");
+for (let i = 0; i < fruits.length; i++) {
+  console.log(`Fruta ${i + 1}: ${fruits[i]}`);
+}
+
+// --------------------------
+// DESAFIOS
+
+// a) Tabuada do 7
+console.log("\nTabuada do 7:");
+for (let i = 1; i <= 10; i++) {
+  console.log(`7 x ${i} = ${7 * i}`);
+}
+
+// b) Soma de números em um array
+const numbers = [4, 7, 1, 9, 12];
+let sum = 0;
+for (let i = 0; i < numbers.length; i++) {
+  sum += numbers[i];
+}
+console.log("\nSoma dos números:", sum);
+
+// c) Menor valor em um array
+let menor = numbers[0];
+for (let i = 1; i < numbers.length; i++) {
+  if (numbers[i] < menor) {
+    menor = numbers[i];
+  }
+}
+console.log("Menor número do array:", menor);
