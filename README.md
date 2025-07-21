@@ -141,7 +141,7 @@ console.log("Status:", status);
 a) Crie um sistema de classificação de notas: - 0-59: F - 60-69: D - 70-79: C - 80-89: B - 90-100: A
 b) Verifique se um número é par ou ímpar
 c) Crie uma verificação que diga se uma pessoa pode dirigir
-(precisa ser maior de idade E ter habilitação)
+conditionals.js(precisa ser maior de idade E ter habilitação)
 
 ### Exercício 5: Loops (20 minutos)
 
